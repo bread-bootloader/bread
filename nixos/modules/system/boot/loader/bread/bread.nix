@@ -45,7 +45,7 @@ let
     nativeBuildInputs = [ pkgs.deno ];
     outputHashAlgo = "sha256";
     outputHashMode = "recursive";
-    outputHash = "sha256-HNcBxAv/KzLT/n4eXayj1XXYf5KmSYaHoEurqXttcfs=";
+    outputHash = "sha256-j5nNa6bdcnBHEuCqS16WNrud3Y+hbaPUXiS0y3NOxJs=";
 
     # No source archive to unpack; the script is passed directly as a store path.
     dontUnpack = true;

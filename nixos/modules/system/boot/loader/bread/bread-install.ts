@@ -16,9 +16,9 @@
  * can be read, tested, and linted without Nix preprocessing.
  */
 
-import { basename, dirname, join } from "jsr:@std/path@^1";
-import { join as winJoin } from "jsr:@std/path@^1/windows";
-import { ensureDir, exists, move, walk } from "jsr:@std/fs@^1";
+import { basename, dirname, join } from "jsr:@std/path@1.1.6";
+import { join as winJoin } from "jsr:@std/path@1.1.6/windows";
+import { ensureDir, exists, move, walk } from "jsr:@std/fs@1.0.24";
 
 // ---------------------------------------------------------------------------
 // Types
